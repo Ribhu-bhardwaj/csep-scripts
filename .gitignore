@@ -1,0 +1,11 @@
+# Virtual environment
+pdf_env/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local VS Code settings (optional, but recommended)
+.vscode/
