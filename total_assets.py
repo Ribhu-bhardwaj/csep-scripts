@@ -6,11 +6,11 @@ import re
 # CHANGE ZONE 1
 # ================================================================
 PDF_PATH = "/mnt/c/Users/ribhu/Downloads/Report on Performance of Power Utilities 2024-25.pdf"
-PAGE_INDICES = [57, 58]  # TODO: fill in (PDF page number - 1 for each page)
-OUTPUT_PATH = "/mnt/c/Users/ribhu/csep/Total Assets/total_assets_2024-25.csv"
+PAGE_INDICES = [61, 62]  # TODO: fill in (PDF page number - 1 for each page)
+OUTPUT_PATH = "/mnt/c/Users/ribhu/csep/Total Assets/total_assets_2022-23.csv"
 
 YEAR_OF_PUBLISHING = "Feb 2026"
-YEAR_OF_DATA = "2024-25(as of March 31,2025)"
+YEAR_OF_DATA = "2022-23(as of March 31,2023)"
 ANNEXURE = "1.4"
 TABLE_HEADER = "Total Assets"
 
@@ -18,14 +18,14 @@ TABLE_HEADER = "Total Assets"
 # CHANGE ZONE 2
 # ================================================================
 COLUMNS = [
-    "Net_Tangible_Assets_(Rs_crore)",
-    "Capital_Work_in_Progress_(Rs_crore)",
-    "Non-Current_Assets_(Rs_crore)",
-    "Regulatory_Assets_(Rs_crore)",
-    "Receivables_for_Sale_of_Power_(Rs_crore)",
-    "Other_Current_Assets_(Rs_crore)",
-    "Total_Assets_(Rs_crore)",
-    "Receivables_for_Sale_of_Power_(Days)",
+    "Net_Tangible_Assets",
+    "Capital_Work_in_Progress",
+    "Non-Current_Assets",
+    "Regulatory_Assets",
+    "Receivables_for_Sale_of_Power",
+    "Other_Current_Assets",
+    "Total_Assets",
+    "Receivables_for_Sale_of_Power",
 ]
 
 UNITS = ["Rs crore", "Rs crore", "Rs crore", "Rs crore", "Rs crore", "Rs crore", "Rs crore", "Days"]
